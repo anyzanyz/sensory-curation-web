@@ -62,10 +62,10 @@ function App() {
         </motion.div>
 
         <motion.div
-           initial={{ opacity: 0, y: 20 }}
+           initial={{ opacity: 0, y: 10 }}
            animate={{ opacity: 1, y: 0 }}
            transition={{ delay: 1.5, duration: 1 }}
-           className="z-20"
+           className="absolute inset-x-0 bottom-0 top-0 pointer-events-none z-20"
         >
           <ControlsOverlay />
         </motion.div>
