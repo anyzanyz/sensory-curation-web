@@ -45,11 +45,11 @@ export function NavBar() {
       </div>
       
       <div className={`hidden md:flex flex-1 items-center justify-center gap-10 lg:gap-16 text-[15px] font-serif tracking-widest transition-colors duration-500 ${menuClass}`}>
-        <button onClick={() => scrollTo('philosophy')} className="transition-colors lowercase italic">philosophy</button>
-        <button onClick={() => scrollTo('brand')} className="transition-colors lowercase italic">brand</button>
-        <button onClick={() => scrollTo('naming')} className="transition-colors lowercase italic">naming</button>
-        <button onClick={() => scrollTo('scenarios')} className="transition-colors lowercase italic">scenarios</button>
-        <button onClick={() => scrollTo('roadmap')} className="transition-colors lowercase italic">roadmap</button>
+        <button onClick={() => scrollTo('philosophy')} className="transition-colors lowercase">philosophy</button>
+        <button onClick={() => scrollTo('brand')} className="transition-colors lowercase">brand</button>
+        <button onClick={() => scrollTo('naming')} className="transition-colors lowercase">naming</button>
+        <button onClick={() => scrollTo('scenarios')} className="transition-colors lowercase">scenarios</button>
+        <button onClick={() => scrollTo('roadmap')} className="transition-colors lowercase">roadmap</button>
       </div>
 
       <button 
