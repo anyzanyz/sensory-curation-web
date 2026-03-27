@@ -82,11 +82,11 @@ function App() {
         className="w-full py-48 md:py-72 px-6 flex flex-col items-center justify-center text-center bg-white dark:bg-black"
       >
         <motion.span variants={fadeUp} className="text-xs text-gray-400 dark:text-gray-500 tracking-widest font-semibold uppercase mb-6">Chapter 00. Why Now</motion.span>
-        <motion.h2 variants={fadeUp} className="font-serif text-4xl md:text-6xl font-light mb-24 text-black dark:text-white max-w-4xl leading-tight">
+        <motion.h2 variants={fadeUp} className="font-serif text-4xl md:text-6xl font-light mb-24 text-black dark:text-white max-w-4xl leading-tight break-keep">
           당신의 여백을 채우는 <br className="hidden md:block"/>가장 우아한 파동
         </motion.h2>
-        <motion.p variants={fadeUp} className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-loose font-light text-base md:text-lg">
-          우리는 고정된 배경음악 시대를 넘어, 당신의 공간이 스스로 호흡하게 만듭니다.<br/>
+        <motion.p variants={fadeUp} className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-loose font-light text-base md:text-lg break-keep px-4">
+          우리는 고정된 배경음악 시대를 넘어, 당신의 공간이 스스로 호흡하게 만듭니다.<br className="hidden md:block"/>
           단순한 시청을 넘어선 'Spatial Styling'. 유저가 자신의 공간 무드를 <br className="hidden md:block"/>
           음악과 빛으로 직접 조율하는 스크린 큐레이션을 경험하세요.
         </motion.p>
